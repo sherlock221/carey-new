@@ -267,6 +267,9 @@
     -webkit-transform: translateY(246px);
     transform: translateY(246px);
 
+    -webkit-transition : -webkit-transform ease 3s;
+    transition : transform ease 3s;
+
 }
 .hengfu-hidden{
     overflow-y: hidden;

@@ -33,6 +33,16 @@ var MobileEvent = {
         });
 
 
+        $(".hengfu-sd").tap(function(){
+
+            var $this = $(this);
+            $this.css({
+                "-webkit-transform": "translateY(0px)",
+                "transform": "translateY(0px)"
+            });
+
+        });
+
 
 
 
