@@ -135,7 +135,7 @@
 }
 
 .scene-03{
-    background: url("../../imgs/scene-03.jpg");
+    background: url("../../imgs/scene-03.png");
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -166,7 +166,7 @@
     width: 125px;
     height: 140.5px;
     margin-left: -62.5px;
-    margin-top: -108px
+    margin-top: -130px;
 }
 .font-02{
     background-position: 0 -140.5px;
@@ -180,15 +180,16 @@
     width: 125px;
     height: 187px;
     margin-left: -62.5px;
-    margin-top: -108px
+    top: 15%;
 }
 
 .font-04{
     background-position: 0 -414px;
-    width: 250px;
+    width: 140px;
     height: 171px;
     margin-left: -62.5px;
-    margin-top: -108px
+    position: absolute;
+    top: 15%;
 }
 
 .font-05{
@@ -210,8 +211,177 @@
 }
 .font-07{
     background-position: 0 -876px;
-    width: 139px;
+    width: 112px;
     height: 178px;
-    margin-left: -70px;
-    margin-top: -128px
+    margin-left: -56px;
+    top: 15%;
+}
+
+
+.font-qingchundalibao{
+    background-position: -154.5px -414px;
+    width: 95.5px;
+    height: 145.5px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -48px;
+}
+
+.hengfu-scroll{
+    background-position: 0 -1243.5px;
+    width: 205.5px;
+    height: 17px;
+}
+.hengfu-body{
+
+    background-position: -166.5px -310.5px;
+    width: 177.5px;
+    height: 225.5px;
+}
+.hengfu-body-wrap{
+    background-color: #ede7d9;
+    width: 184px;
+    height: 230px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.hengfu{
+    position: absolute;
+    left: 50%;
+    margin-left: -103px;
+    bottom: 20%;
+}
+
+.redtran{
+    background-position: -334px -41.5px;
+    width: 166.5px;
+    height: 72.5px;
+    position: relative;
+    left: 50%;
+    margin-left: -83px;
+    top: 23px;
+}
+.hengfu-sd{
+    -webkit-transform: translateY(246px);
+    transform: translateY(246px);
+
+}
+.hengfu-hidden{
+    overflow-y: hidden;
+}
+
+.font-color{
+    color: #744f3d;
+    font-size: 18px;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+.gift{
+    background-position: 0 -535px;
+    width: 127px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: -118px;
+}
+
+.price-bg{
+    background: url("../../imgs/price-bg.jpg");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:  136px;
+}
+
+.long{
+    background-position: 0 -1113px;
+    width: 183.5px;
+    height: 196.5px;
+
+    position: absolute;
+    left: 50%;
+    top : 50%;
+    margin-left:  -92px;
+    margin-top : -98px;
+ }
+
+
+/** 分享朋友圈 **/
+.share{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    background: url("../../imgs/bg.jpg");
+    background-size: cover;
+}
+
+.share-layer{
+    position: absolute;
+    right: 4px;
+    top: 10px;
+
+    background-position: -166.5px -160.5px;
+    width: 306px;
+    height: 150px;
+
+    z-index: 999;
+}
+
+.share-btn{
+    width: 157px;
+    height: 36px;
+    line-height: 36px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color: #744f3d;
+    border: 1px solid #744f3d;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -78.5px;
+}
+
+.success-top{
+    height: 70%;
+}
+
+.input-cc{
+    width: 157px;
+    height: 36px;
+    line-height: 36px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color: #744f3d;
+    border: 1px solid #744f3d;
+    font-size: 18px;
+}
+
+.success-bottom{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+.form-group{
+    margin-top: 13px;
+}
+
+.input-cc::-webkit-input-placeholder {
+    color:    #744f3d;
+    text-align: center;
+}
+.input-cc:-moz-placeholder {
+    color:    #744f3d;
+    text-align: center;
 }

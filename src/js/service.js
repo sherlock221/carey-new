@@ -4,7 +4,7 @@ var MobileUI = {
     screen01   : $("#screen00")
 };
 
-var imgList = ["./imgs/cc-font.png","./imgs/cc-pic.png"];
+var imgList = ["./imgs/cc-font.png","./imgs/cc-pic.png","./imgs/scene-01.png","/imgs/scene-02.png","/imgs/scene-03.png","/imgs/scene-04.png","/imgs/scene-05.png"];
 
 var ld = new loadermsk(imgList, "#0e79ef", function () {
     MobileEvent.init();
@@ -22,6 +22,20 @@ var MobileEvent = {
 
     },
     form: function () {
+
+        //抽奖
+        $("#subBtn").tap(function(){
+            window.location.href="./share.html";
+        });
+
+        $("#qingchun").tap(function(){
+            window.location.href="./success.html";
+        });
+
+
+
+
+
 
         //设置当前高度
         var height = document.body.offsetHeight;
@@ -41,9 +55,10 @@ var MobileEvent = {
             onScroll: function (name, obj) {
             },
             onTouchEnd: function (name, obj) {
+
             },
             scrollEnd: function (index) {
-                    console.log(index);
+
                 var $screen = MobileUI.screenAll.find(".screen");
                 var node = $screen.filter("[id='screen0" + index + "']");
                 for (var i = 0; i < $screen.length; i++) {
@@ -52,6 +67,10 @@ var MobileEvent = {
                 }
 
                 node.children(".content").removeClass("hide");
+
+
+
+
             }
         });
 
