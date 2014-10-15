@@ -1,0 +1,217 @@
+/* scroll 界面基本配置 */
+.content,
+.content .wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/** 竖向滚css **/
+.screen-all {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: 100%;
+
+    -webkit-transition:  -webkit-transform 0.6s ease;
+    transition: transform  0.6s ease;
+}
+
+.screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    
+    background: url("../../imgs/bg.jpg");
+    background-size: cover;
+}   
+
+.hide {
+    display: none;
+}
+
+/* sprite图片 */
+.font-img {
+    background: url('../../imgs/cc-font.png');
+    background-size: 250px 1500px;
+    background-repeat: no-repeat;
+}
+
+.pic-img {
+    background: url('../../imgs/cc-pic.png');
+    background-size: 500px 2000px;
+    background-repeat: no-repeat;
+}
+/* scroll 界面基本配置 */
+
+.pos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.logo{
+    background-position: 0 0;
+    width: 64.5px;
+    height: 41.5px;
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    z-index: 999;
+}
+.bike{
+    background-position: 0 -41.5px;
+    width: 167.5px;
+    height:156.5px;
+
+    position: absolute;
+    bottom: 10%;
+    right: -19px
+}
+.police{
+    background-position: 0 -197.5px;
+    width: 143.5px;
+    height: 113px;
+    left: 50%;
+    margin-left: -72px;
+    bottom: 62px;
+    position: absolute;
+}
+.bingfeng{
+    background-position: 0  -315.5px;
+    width: 143.5px;
+    height: 166px;
+
+
+    position: absolute;
+    margin-top: -80px;
+    top: 50%;
+    left: -68px
+}
+
+.table-xiaoren{
+    background-position: 0 -774px;
+    width: 381px;
+    height: 121.5px;
+    position: absolute;
+    bottom: -22px;
+    right: -93px;
+    z-index: 3;
+}
+
+.xiaorenshu{
+    background-position: 0  -903.5px;
+    width: 352.5px;
+    height: 166px;
+    position: absolute;
+    right: 0;
+    bottom: 88.5px;
+    z-index: 2;
+}
+.scene-01{
+    background: url("../../imgs/scene-01.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 205px;
+}
+.scene-02{
+    background: url("../../imgs/scene-02.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 270.5px;
+}
+
+.scene-03{
+    background: url("../../imgs/scene-03.jpg");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 169.5px;
+}
+.scene-04{
+    background: url("../../imgs/scene-04.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 216px;
+}
+.scene-05{
+    background: url("../../imgs/scene-05.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 235.5px;
+}
+.font-01{
+    background-position: 0 0 ;
+    width: 125px;
+    height: 140.5px;
+    margin-left: -62.5px;
+    margin-top: -108px
+}
+.font-02{
+    background-position: 0 -140.5px;
+    width: 139.5px;
+    height: 87px;
+    margin-left: -62.5px;
+    margin-top: -108px
+}
+.font-03{
+    background-position: 0 -227.5px;
+    width: 125px;
+    height: 187px;
+    margin-left: -62.5px;
+    margin-top: -108px
+}
+
+.font-04{
+    background-position: 0 -414px;
+    width: 250px;
+    height: 171px;
+    margin-left: -62.5px;
+    margin-top: -108px
+}
+
+.font-05{
+    background-position: 0 -584.5px;
+    width: 139.5px;
+    height: 174px;
+
+    position: absolute;
+    top: 12%;
+    right: 10%;
+}
+
+.font-06{
+    background-position: 0 -758.5px;
+    width: 207px;
+    height: 117.5px;
+    margin-left: -65px;
+    margin-top: -108px
+}
+.font-07{
+    background-position: 0 -876px;
+    width: 139px;
+    height: 178px;
+    margin-left: -70px;
+    margin-top: -128px
+}
